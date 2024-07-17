@@ -1,0 +1,127 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>JavaScript Event</title>
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="css/style.css" />
+	<!-- Кодировка страницы -->
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<meta name="viewport" content="width=device-width">
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+
+	<div class="wrapper">
+		<div class="animation-headline">
+			<div class="animation-headline__body">
+				<div class="animation-headline__content">
+					<div class="animation-headline__title">green</div>
+				</div>
+				<div class="animation-headline__images">
+					<div class="animation-headline__item">
+						<div class="animation-headline__bg"></div>
+					</div>
+					<div class="animation-headline__item">
+						<div class="animation-headline__foliage"></div>
+					</div>
+				</div>
+				<div class="animation-headline__item">
+					<div class="animation-headline__leaves">
+						<div class="animation-headline__leaf leaf-one"><img src="./img/leaf_one.png" alt=""></div>
+						<div class="animation-headline__leaf leaf-two"><img src="./img/leaf_two.png" alt=""></div>
+						<div class="animation-headline__leaf leaf-three"><img src="./img/leaf_three.png" alt=""></div>
+						<div class="animation-headline__leaf leaf-four"><img src="./img/leaf_four.png" alt=""></div>
+						<div class="animation-headline__leaf leaf-five"><img src="./img/leaf_five.png" alt=""></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="container">
+				<div class="content__body">
+					<button class="content__button">
+						<span>Fill in the form</span>
+						<span>Close the form</span>
+					</button>
+					<div class="content__form">
+						<form name="mainForm" class="main-form" action="#" method="post" enctype="multipart/form-data">
+							<div class="main-form__column">
+								<div class="main-form__item">
+									<div class="main-form__label">Your green E-mail</div>
+									<input class="main-form__email" type="email" placeholder="......." name="email">
+								</div>
+								<div class="main-form__item">
+									<div class="main-form__label">Secret green name</div>
+									<input class="main-form__password" type="password" placeholder="************"
+										name="greenName">
+								</div>
+								<div class="main-form__item">
+									<div class="main-form__item-body">
+										<div class="main-form__label">Green message</div>
+										<textarea class="main-form__textarea" placeholder="Green Text..." name="message"
+											maxlength="50"></textarea>
+										<div class="main-form__counter"><span></span> characters left</div>
+									</div>
+								</div>
+							</div>
+							<div class="main-form__column">
+								<div class="main-form__item">
+									<div class="main-form__label">Green choice</div>
+									<input type="radio" name="radio" id="radio1" value="false1">
+									<label class="main-form__radio" for="radio1">Blue</label>
+									<input type="radio" name="radio" id="radio2" value="false2">
+									<label class="main-form__radio" for="radio2">Red</label>
+									<input type="radio" name="radio" id="radio3" value="true">
+									<label class="main-form__radio" for="radio3">Green</label>
+								</div>
+								<div class="main-form__item">
+									<div class="main-form__label">Green survey</div>
+									<input type="checkbox" name="checkbox1" value="green1" id="checkbox1">
+									<label class="main-form__checkbox" for="checkbox1">#####</label>
+									<input type="checkbox" name="checkbox2" value="green2" id="checkbox2">
+									<label class="main-form__checkbox" for="checkbox2">#####</label>
+									<input type="checkbox" name="checkbox3" value="green3" id="checkbox3">
+									<label class="main-form__checkbox" for="checkbox3">#####</label>
+								</div>
+								<div class="main-form__item">
+									<div class="main-form__label">Greenlect</div>
+									<select class="main-form__select" name="select">
+										<option name="option1" value="option1">Yellow</option>
+										<option name="option2" value="option2">Blue</option>
+										<option name="option3" value="option3">Red</option>
+									</select>
+								</div>
+								<div class="main-form__item">
+									<div class="main-form__label">Green file</div>
+									<label class="main-form__file">
+										<input type="file" name="file">
+										<span>Choose File</span>
+										<span>The file is not selected</span>
+									</label>
+								</div>
+							</div>
+							<div class="main-form__column">
+								<div class="main-form__item">
+									<button class="main-form__button">Send green</button>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="content__image"><img src="./img/image.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/script.js"></script>
+
+</body>
+
+</html>
